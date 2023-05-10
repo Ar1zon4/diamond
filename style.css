@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.mmm{
+    background-image: url('Cap.PNG');
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.pause{
+    /* margin-bottom: 50px; */
+    animation: animate 5s linear infinite;
+    color: dimgrey;
+    line-height: 70px;
+    text-shadow: 2px 2px black;
+    height: 22vh;
+}
+
+.us a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.pluto{
+    width: 200px;
+}
+
+.col-10{
+    /* background-color: rgb(202, 209, 137); */
+
+}
+
+/* .{
+    background-image: linear-gradient(rgb(24, 24, 24),rgb(250, 250, 250));
+    margin: 0 auto;
+    width: 100%;
+    height: 500vh;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes animate
+{
+    0%,18%,20%
+    {
+        color: lightgoldenrodyellow;
+        text-shadow: none;
+    }
+    18%,20%,30%{
+        color:lightgoldenrodyellow ;
+        text-shadow: 0 0 10px black,
+        0 0 20px lightgoldenrodyellow
+        0 0 40px lightgoldenrodyellow
+        0 0 80px lightgoldenrodyellow
+        0 0 160px lightgoldenrodyellow
+    }
+}
+
+
+.peeps{
+    background-image: url('people.PNG');
+    /* height: 700px; */
+    width: 100%;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: bottom;
+
+}
+
+/* .navbar-brand{
+    text-decoration: none;
+} */
+
+.add{
+    text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    /* .van {
+      height: 10px;
+    } */
+
+    .high{
+        height: 770vh;
+    }
+    .pep{
+        width: 100%;
+    }
+    .mmm{
+        height: 170vh;
+    }
+
+    .come{
+        width: 100%;
+        background-attachment: fixed;
+    }
+    .hot{
+        width: 70%;
+    }
+    
+
+  }
+
+  @media screen and (max-width: 900px) {
+    /* .van {
+      height: 10px;
+    } */
+
+    
+
+  }
